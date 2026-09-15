@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face { font-family: 'LINE Seed JP'; src: url('/fonts/LINESeedJP-Regular.ttf') format('truetype'); font-weight: 400; font-display: swap; }
+@font-face { font-family: 'LINE Seed JP'; src: url('/fonts/LINESeedJP-Bold.ttf') format('truetype'); font-weight: 700; font-display: swap; }
+@font-face { font-family: 'LINE Seed JP'; src: url('/fonts/LINESeedJP-ExtraBold.ttf') format('truetype'); font-weight: 800; font-display: swap; }
+@font-face { font-family: 'LINE Seed JP'; src: url('/fonts/LINESeedJP-Thin.ttf') format('truetype'); font-weight: 200; font-display: swap; }
+
+/* ==========================================================================
+   Design tokens — HSL CSS variables (shadcn/Lovable convention).
+   The brand palette (cream / cream-light / maroon / navy / taupe / grey /
+   offwhite / ink / white) is Machon Meleches Machsheves' own palette, mapped
+   here as HSL so both Tailwind utilities (bg-maroon, text-cream, …) and the
+   legacy pixel-perfect stylesheet (src/styles/site.css, which references the
+   same --variable names) share one source of truth. The semantic shadcn set
+   (--background, --primary, etc.) is layered on top for shadcn/ui components
+   (used in the admin panel) and maps onto the same brand colors.
+   ========================================================================== */
+:root {
+  --cream: 30 26% 85%;
+  --cream-light: 31 100% 96%;
+  --maroon: 7 63% 22%;
+  --navy: 203 45% 24%;
+  --taupe: 22 14% 34%;
+  --grey: 0 0% 85%;
+  --offwhite: 0 0% 96%;
+  --ink: 0 0% 6%;
+  --white: 0 0% 100%;
+  --danger: 6 58% 40%;
+  --ok: 143 39% 30%;
+
+  --background: var(--white);
+  --foreground: var(--ink);
+
+  --card: var(--white);
+  --card-foreground: var(--ink);
+
+  --primary: var(--maroon);
+  --primary-foreground: var(--white);
+
+  --secondary: var(--navy);
+  --secondary-foreground: var(--white);
+
+  --muted: var(--offwhite);
+  --muted-foreground: var(--taupe);
+
+  --accent: var(--cream);
+  --accent-foreground: var(--maroon);
+
+  --destructive: var(--danger);
+  --destructive-foreground: var(--white);
+
+  --border: var(--grey);
+  --input: var(--grey);
+  --ring: var(--navy);
+
+  --radius: 0.75rem;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  font-family: 'LINE Seed JP', system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
