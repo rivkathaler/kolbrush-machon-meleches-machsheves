@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Our Work — Machon Meleches Machsheves</title>
+<meta name="description" content="Hundreds of seforim published for klal Yisroel. A selection of the seforim, kuntreisim and kollel series produced by Machon Meleches Machsheves.">
+<link rel="icon" href="assets/img/logo.png">
+<link rel="stylesheet" href="assets/css/styles.css?v=39">
+</head>
+<body>
+
+<svg style="display:none" aria-hidden="true">
+  <symbol id="i-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M5 12h14M13 6l6 6-6 6"/>
+  </symbol>
+  <symbol id="i-book-open" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M12 6.5C10.5 4.8 8.4 4 6 4H3v13h3c2.4 0 4.5.8 6 2.5"/>
+    <path d="M12 6.5C13.5 4.8 15.6 4 18 4h3v13h-3c-2.4 0-4.5.8-6 2.5"/>
+    <path d="M12 6.5v13"/>
+  </symbol>
+  <symbol id="i-arrow-ur" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M7 17L17 7M9 7h8v8"/>
+  </symbol>
+  <symbol id="i-menu" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+    <path d="M4 7h16M4 12h16M4 17h16"/>
+  </symbol>
+</svg>
+
+<!-- ============================ HEADER ============================ -->
+<header class="site-header" id="header">
+  <div class="shell header-inner">
+    <a class="brand" href="index.html" aria-label="Machon Meleches Machsheves — home">
+      <img src="assets/img/logo-cream.svg" alt="" width="119" height="116">
+    </a>
+
+    <nav class="nav" id="nav" aria-label="Main">
+      <a href="index.html">Home</a>
+      <a href="our-work.html" aria-current="page">Our Work</a>
+      <a href="services.html">Services</a>
+      <a href="downloads.html">Downloads</a>
+      <a class="nav__beit" href="beit-hasefer.html">
+        <span class="nav__beit-label">Beit HaSefer</span>
+        <span class="nav__beit-icon"><img src="assets/img/icon-building.svg" alt="" width="28" height="28"></span>
+      </a>
+    </nav>
+
+
+    <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="nav">
+      <svg aria-hidden="true"><use href="#i-menu"/></svg>
+    </button>
+  </div>
+</header>
+
+<!-- ============================ PAGE HERO ============================ -->
+<section class="page-hero work-hero" id="top">
+  <div class="shell">
+    <h1 class="page-hero__title reveal">
+      <span>Hundreds of seforim</span>
+      <span>published for klal Yisroel</span>
+    </h1>
+    <span class="tag reveal">Our work</span>
+  </div>
+</section>
+
+<!-- ============================ GALLERY (DriftWall) ============================ -->
+<section class="dw-section">
+  <div class="shell">
+    <div id="driftWall"></div>
+  </div>
+</section>
+
+<!-- ============================ CTA ============================ -->
+<section class="cta" id="contact">
+  <div class="shell">
+    <div class="cta__inner reveal">
+      <span class="icon-dot cta__badge"><svg aria-hidden="true"><use href="#i-book-open"/></svg></span>
+      <h2 class="cta__title">
+        <span>What’s</span>
+        <span>with your</span>
+        <span>sefer?</span>
+      </h2>
+      <div class="cta__body">
+        <p class="cta__text">Book a free 20 minute consultation call<br>we can talk, discuss, answer questions<br>and see how we can help you.</p>
+        <form class="cta__form" id="callForm" novalidate>
+          <label class="field field--name"><input type="text" name="name" placeholder="Name" aria-label="Name" required></label>
+          <label class="field field--email"><input type="email" name="email" placeholder="Email" aria-label="Email" required></label>
+          <label class="field field--phone"><input type="tel" name="phone" placeholder="Phone number" aria-label="Phone number" required></label>
+          <button class="cta__submit" type="submit">
+            <span class="cta__submit-label">Book a call</span>
+            <span class="cta__submit-icon"><svg aria-hidden="true"><use href="#i-arrow-ur"/></svg></span>
+          </button>
+          <p class="form-note" id="callNote" role="status"></p>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============================ FOOTER ============================ -->
+<footer class="site-footer">
+  <div class="shell">
+    <a class="footer__brand" href="index.html" aria-label="Machon Meleches Machsheves — home">
+      <img src="assets/img/logo-cream.svg" alt="" width="174" height="169">
+    </a>
+
+    <div class="footer__contact">
+      <h3>Contact us at</h3>
+      <ul>
+        <li><a href="tel:+972527611978">Israel: 052-761-1978</a></li>
+        <li><a href="tel:+17737968800">USA: 773-796-8800</a></li>
+        <li><a href="tel:+44203129515">England: 44-203-129-515</a></li>
+        <li><a href="mailto:printyoursefer@gmail.com">printyoursefer@gmail.com</a></li>
+      </ul>
+    </div>
+
+    <form class="footer__form" id="footerForm" novalidate>
+      <textarea name="message" placeholder="Comment or Message" aria-label="Comment or message" required></textarea>
+      <div class="footer__row">
+        <label class="field"><input type="text" name="name" placeholder="Your name" aria-label="Your name" required></label>
+        <label class="field"><input type="email" name="email" placeholder="Your email, for an answer" aria-label="Your email" required></label>
+        <button class="footer__submit" type="submit" aria-label="Send message">
+          <svg aria-hidden="true"><use href="#i-arrow"/></svg>
+        </button>
+      </div>
+    </form>
+    <p class="form-note" id="footerNote" role="status"></p>
+
+    <nav class="footer__nav" aria-label="Footer">
+      <a href="index.html">Home</a>
+      <a href="our-work.html">Our work</a>
+      <a href="services.html">Services</a>
+      <a href="downloads.html">Downloads</a>
+      <a href="beit-hasefer.html">Beit HaSefer</a>
+    </nav>
+
+  </div>
+</footer>
+
+<script src="assets/js/drift-wall.js?v=2"></script>
+<script src="assets/js/main.js?v=25"></script>
+</body>
+</html>

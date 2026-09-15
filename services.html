@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Services — Machon Meleches Machsheves</title>
+<meta name="description" content="Full A-Z support from manuscript to print: typing, editing, typesetting, graphics and printing for seforim, overseen by Rabbi Akiva Kulbersh in Yerushalayim.">
+<link rel="icon" href="assets/img/logo.png">
+<link rel="stylesheet" href="assets/css/styles.css?v=39">
+</head>
+<body>
+
+<svg style="display:none" aria-hidden="true">
+  <symbol id="i-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M5 12h14M13 6l6 6-6 6"/>
+  </symbol>
+  <symbol id="i-down" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M12 5v14M6 13l6 6 6-6"/>
+  </symbol>
+  <symbol id="i-book-open" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M12 6.5C10.5 4.8 8.4 4 6 4H3v13h3c2.4 0 4.5.8 6 2.5"/>
+    <path d="M12 6.5C13.5 4.8 15.6 4 18 4h3v13h-3c-2.4 0-4.5.8-6 2.5"/>
+    <path d="M12 6.5v13"/>
+  </symbol>
+  <symbol id="i-arrow-ur" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M7 17L17 7M9 7h8v8"/>
+  </symbol>
+  <symbol id="i-menu" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+    <path d="M4 7h16M4 12h16M4 17h16"/>
+  </symbol>
+</svg>
+
+<!-- ============================ HEADER ============================ -->
+<header class="site-header" id="header">
+  <div class="shell header-inner">
+    <a class="brand" href="index.html" aria-label="Machon Meleches Machsheves — home">
+      <img src="assets/img/logo-cream.svg" alt="" width="119" height="116">
+    </a>
+
+    <nav class="nav" id="nav" aria-label="Main">
+      <a href="index.html">Home</a>
+      <a href="our-work.html">Our Work</a>
+      <a href="services.html" aria-current="page">Services</a>
+      <a href="downloads.html">Downloads</a>
+      <a class="nav__beit" href="beit-hasefer.html">
+        <span class="nav__beit-label">Beit HaSefer</span>
+        <span class="nav__beit-icon"><img src="assets/img/icon-building.svg" alt="" width="28" height="28"></span>
+      </a>
+    </nav>
+
+
+    <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="nav">
+      <svg aria-hidden="true"><use href="#i-menu"/></svg>
+    </button>
+  </div>
+</header>
+
+<!-- ============================ PAGE HERO ============================ -->
+<section class="page-hero svc-hero" id="top">
+  <div class="shell">
+    <h1 class="svc-hero__title reveal">
+      <span>Full A-Z support</span>
+      <span>from manuscript</span>
+      <span>to print</span>
+    </h1>
+    <span class="tag svc-hero__tag reveal">Our services</span>
+
+    <!-- no .reveal here: the float keyframe already owns `transform`, so a
+         one-time reveal slide-up would just fight the idle bob. -->
+    <div class="stat stat--books">
+      <b>68</b>
+      <span>Sfarim published by<br>melechet machshevet</span>
+    </div>
+    <div class="stat stat--years">
+      <b>14</b>
+      <span>Years experience</span>
+    </div>
+    <div class="stat stat--typesetting">
+      <b>4</b>
+      <span>Typesetting styles</span>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ KOLLEL KUNTREISIM ============================ -->
+<section class="kollel">
+  <div class="shell">
+    <div class="kollel__inner reveal">
+      <div class="kollel__col">
+        <h2 class="kollel__title">Kollel Kuntreisim</h2>
+        <p class="kollel__text">A chaburah or a kollel writing up a short kuntress gets the same careful attention as a full-length sefer.<br>We handle the typing, editing, layout and printing on a fast turnaround,<br>so your work reaches the beis medrash on your schedule.</p>
+        <a class="pill" href="#contact">
+          Publish your kuntress today
+          <span class="knob"><svg aria-hidden="true"><use href="#i-arrow-ur"/></svg></span>
+        </a>
+      </div>
+
+      <div class="kollel__cards">
+        <figure class="kollel__card"><img src="assets/books/book-2.jpg" alt="Kuntress produced for a kollel" loading="lazy"></figure>
+        <figure class="kollel__card"><img src="assets/books/book-9.jpg" alt="Short-run kuntress in a dark binding" loading="lazy"></figure>
+        <figure class="kollel__card"><img src="assets/books/book-10.jpg" alt="Kuntress with a burgundy cover" loading="lazy"></figure>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ SERVICE DETAIL ============================ -->
+<section class="shell svc-detail" id="detail">
+  <div class="svc-detail__intro reveal">
+    <h2 class="svc-detail__title">Our Process</h2>
+    <p class="svc-detail__sub">Five careful stages, one experienced team.</p>
+    <img src="assets/img/services-book.png" alt="Sefer produced by Machon Meleches Machsheves" loading="lazy">
+  </div>
+
+  <div class="svc-rail">
+    <article class="svc-row is-active reveal" id="typing">
+      <h3>Typing</h3>
+      <p>Machon Meleches Machsheves employs typists proficient even with difficult handwriting, coupled with unmatched speed and accuracy.</p>
+    </article>
+    <article class="svc-row reveal" id="editing">
+      <h3>Editing</h3>
+      <p>Machon Meleches Machsheves formed a hand-picked team of talmidei chochomim who painstakingly proofread and edit your sefer so that klal Yisroel can truly benefit from your work.</p>
+    </article>
+    <article class="svc-row reveal" id="typesetting">
+      <h3>Typesetting</h3>
+      <p>Utilizing the foremost programs available for seforim, our master typesetters are at the forefront of the profession, with deep understanding of the relevant styles for any given sefer.</p>
+    </article>
+    <article class="svc-row reveal" id="graphics">
+      <h3>Graphics</h3>
+      <p>Machon Meleches Machsheves avails its clients with the finest graphic artists who specialize in seforim.</p>
+    </article>
+    <article class="svc-row reveal" id="printing">
+      <h3>Printing</h3>
+      <p>Machon Meleches Machsheves provides full printing services with top-notch results for both soft and hard cover.</p>
+    </article>
+  </div>
+</section>
+
+<!-- ============================ STEPS ============================ -->
+<nav class="shell steps reveal" aria-label="Our process" id="stepsNav">
+  <a href="#typing" data-step="typing">Typing</a>
+  <span class="steps__arrow"><svg aria-hidden="true"><use href="#i-arrow"/></svg></span>
+  <a href="#editing" data-step="editing">Editing</a>
+  <span class="steps__arrow"><svg aria-hidden="true"><use href="#i-arrow"/></svg></span>
+  <a href="#typesetting" data-step="typesetting">Typesetting</a>
+  <span class="steps__arrow"><svg aria-hidden="true"><use href="#i-arrow"/></svg></span>
+  <a href="#graphics" data-step="graphics">Graphics</a>
+  <span class="steps__arrow"><svg aria-hidden="true"><use href="#i-arrow"/></svg></span>
+  <a href="#printing" data-step="printing">Printing</a>
+</nav>
+
+<!-- ============================ TYPESETTING SAMPLES ============================ -->
+<section class="samples" id="samples">
+  <div class="shell">
+
+    <div class="sample-group sample-group--single reveal">
+      <h3>Single Column Typesetting</h3>
+      <div class="carousel">
+        <button class="carousel__btn carousel__btn--prev" aria-label="Previous single-column sample">
+          <svg aria-hidden="true"><use href="#i-arrow"/></svg>
+        </button>
+        <div class="carousel__track">
+          <figure><img src="assets/samples/single-1.jpg" alt="Single column typesetting sample 1" loading="lazy"></figure>
+          <figure><img src="assets/samples/single-2.jpg" alt="Single column typesetting sample 2" loading="lazy"></figure>
+          <figure><img src="assets/samples/single-3.jpg" alt="Single column typesetting sample 3" loading="lazy"></figure>
+          <figure><img src="assets/samples/single-1.jpg" alt="Single column typesetting sample 4" loading="lazy"></figure>
+          <figure><img src="assets/samples/single-2.jpg" alt="Single column typesetting sample 5" loading="lazy"></figure>
+          <figure><img src="assets/samples/single-3.jpg" alt="Single column typesetting sample 6" loading="lazy"></figure>
+          <figure><img src="assets/samples/single-1.jpg" alt="Single column typesetting sample 7" loading="lazy"></figure>
+          <figure><img src="assets/samples/single-2.jpg" alt="Single column typesetting sample 8" loading="lazy"></figure>
+        </div>
+        <button class="carousel__btn carousel__btn--next" aria-label="Next single-column sample">
+          <svg aria-hidden="true"><use href="#i-arrow"/></svg>
+        </button>
+      </div>
+    </div>
+
+    <div class="sample-group sample-group--double reveal">
+      <h3>Double Column Typesetting</h3>
+      <div class="carousel">
+        <button class="carousel__btn carousel__btn--prev" aria-label="Previous double-column sample">
+          <svg aria-hidden="true"><use href="#i-arrow"/></svg>
+        </button>
+        <div class="carousel__track">
+          <figure><img src="assets/samples/double-1.jpg" alt="Double column typesetting sample 1" loading="lazy"></figure>
+          <figure><img src="assets/samples/double-2.jpg" alt="Double column typesetting sample 2" loading="lazy"></figure>
+          <figure><img src="assets/samples/double-3.jpg" alt="Double column typesetting sample 3" loading="lazy"></figure>
+          <figure><img src="assets/samples/double-4.jpg" alt="Double column typesetting sample 4" loading="lazy"></figure>
+          <figure><img src="assets/samples/double-1.jpg" alt="Double column typesetting sample 5" loading="lazy"></figure>
+          <figure><img src="assets/samples/double-2.jpg" alt="Double column typesetting sample 6" loading="lazy"></figure>
+          <figure><img src="assets/samples/double-3.jpg" alt="Double column typesetting sample 7" loading="lazy"></figure>
+          <figure><img src="assets/samples/double-4.jpg" alt="Double column typesetting sample 8" loading="lazy"></figure>
+        </div>
+        <button class="carousel__btn carousel__btn--next" aria-label="Next double-column sample">
+          <svg aria-hidden="true"><use href="#i-arrow"/></svg>
+        </button>
+      </div>
+    </div>
+
+    <div class="sample-group sample-group--multi reveal">
+      <h3>Multi-Text Typesetting</h3>
+      <div class="carousel">
+        <button class="carousel__btn carousel__btn--prev" aria-label="Previous multi-text sample">
+          <svg aria-hidden="true"><use href="#i-arrow"/></svg>
+        </button>
+        <div class="carousel__track">
+          <figure><img src="assets/samples/multi-1.jpg" alt="Multi-text typesetting sample 1" loading="lazy"></figure>
+          <figure><img src="assets/samples/multi-2.jpg" alt="Multi-text typesetting sample 2" loading="lazy"></figure>
+          <figure><img src="assets/samples/multi-3.jpg" alt="Multi-text typesetting sample 3" loading="lazy"></figure>
+          <figure><img src="assets/samples/multi-4.jpg" alt="Multi-text typesetting sample 4" loading="lazy"></figure>
+          <figure><img src="assets/samples/multi-1.jpg" alt="Multi-text typesetting sample 5" loading="lazy"></figure>
+          <figure><img src="assets/samples/multi-2.jpg" alt="Multi-text typesetting sample 6" loading="lazy"></figure>
+          <figure><img src="assets/samples/multi-3.jpg" alt="Multi-text typesetting sample 7" loading="lazy"></figure>
+          <figure><img src="assets/samples/multi-4.jpg" alt="Multi-text typesetting sample 8" loading="lazy"></figure>
+        </div>
+        <button class="carousel__btn carousel__btn--next" aria-label="Next multi-text sample">
+          <svg aria-hidden="true"><use href="#i-arrow"/></svg>
+        </button>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ============================ FAQ ============================ -->
+<section class="faq" id="faq">
+  <div class="shell">
+    <p class="eyebrow reveal">FAQ</p>
+    <h2 class="section-title faq__title reveal">What people<br>wanted to know</h2>
+
+    <div class="faq__list reveal">
+      <details class="faq__item">
+        <summary>How long does it take to publish a sefer?</summary>
+        <p class="faq__answer">It depends on the length of the manuscript and the services you need. A short kuntress can be ready in a few weeks; a full-length sefer that needs typing, editing, typesetting and a cover usually runs a few months. We set a realistic schedule with you at the start and keep to it.</p>
+      </details>
+      <details class="faq__item">
+        <summary>What file formats do you accept for typing and editing?</summary>
+        <p class="faq__answer">Anything you have. Handwritten manuscripts, scans, photographs of pages, printed seforim, Word files, PDFs — our typists are used to working from difficult handwriting and poor-quality scans.</p>
+      </details>
+      <details class="faq__item">
+        <summary>Can you work from handwritten manuscripts?</summary>
+        <p class="faq__answer">Yes — this is one of our specialties. Our typists are proficient even with difficult handwriting, and every page is checked by a talmid chochom who understands the content, not just the letters.</p>
+      </details>
+      <details class="faq__item">
+        <summary>Which typesetting style should I choose for my sefer?</summary>
+        <p class="faq__answer">Single column suits derashos, sichos and most chiddushim. Double column suits halachic works and longer texts. Multi-text is for a sefer printed alongside a commentary or a mekor. We will advise you based on the content of your sefer.</p>
+      </details>
+      <details class="faq__item">
+        <summary>Do you design the cover as well?</summary>
+        <p class="faq__answer">Yes. We work with the finest graphic artists who specialize in seforim, so the cover, the shaar blatt and the spine all match the character of the sefer inside.</p>
+      </details>
+      <details class="faq__item">
+        <summary>Do you handle printing and binding?</summary>
+        <p class="faq__answer">We provide full printing services with top-notch results for both soft and hard cover, in any quantity — from a small kuntress for a bris to a full print run.</p>
+      </details>
+      <details class="faq__item">
+        <summary>How do I get started, and what does it cost?</summary>
+        <p class="faq__answer">Book a free 20 minute consultation call. We will look at your manuscript, talk through what it needs, and give you a clear quote before any work begins.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ CTA ============================ -->
+<section class="cta" id="contact">
+  <div class="shell">
+    <div class="cta__inner reveal">
+      <span class="icon-dot cta__badge"><svg aria-hidden="true"><use href="#i-book-open"/></svg></span>
+      <h2 class="cta__title">
+        <span>What’s</span>
+        <span>with your</span>
+        <span>sefer?</span>
+      </h2>
+      <div class="cta__body">
+        <p class="cta__text">Book a free 20 minute consultation call<br>we can talk, discuss, answer questions<br>and see how we can help you.</p>
+        <form class="cta__form" id="callForm" novalidate>
+          <label class="field field--name"><input type="text" name="name" placeholder="Name" aria-label="Name" required></label>
+          <label class="field field--email"><input type="email" name="email" placeholder="Email" aria-label="Email" required></label>
+          <label class="field field--phone"><input type="tel" name="phone" placeholder="Phone number" aria-label="Phone number" required></label>
+          <button class="cta__submit" type="submit">
+            <span class="cta__submit-label">Book a call</span>
+            <span class="cta__submit-icon"><svg aria-hidden="true"><use href="#i-arrow-ur"/></svg></span>
+          </button>
+          <p class="form-note" id="callNote" role="status"></p>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============================ FOOTER ============================ -->
+<footer class="site-footer">
+  <div class="shell">
+    <a class="footer__brand" href="index.html" aria-label="Machon Meleches Machsheves — home">
+      <img src="assets/img/logo-cream.svg" alt="" width="174" height="169">
+    </a>
+
+    <div class="footer__contact">
+      <h3>Contact us at</h3>
+      <ul>
+        <li><a href="tel:+972527611978">Israel: 052-761-1978</a></li>
+        <li><a href="tel:+17737968800">USA: 773-796-8800</a></li>
+        <li><a href="tel:+44203129515">England: 44-203-129-515</a></li>
+        <li><a href="mailto:printyoursefer@gmail.com">printyoursefer@gmail.com</a></li>
+      </ul>
+    </div>
+
+    <form class="footer__form" id="footerForm" novalidate>
+      <textarea name="message" placeholder="Comment or Message" aria-label="Comment or message" required></textarea>
+      <div class="footer__row">
+        <label class="field"><input type="text" name="name" placeholder="Your name" aria-label="Your name" required></label>
+        <label class="field"><input type="email" name="email" placeholder="Your email, for an answer" aria-label="Your email" required></label>
+        <button class="footer__submit" type="submit" aria-label="Send message">
+          <svg aria-hidden="true"><use href="#i-arrow"/></svg>
+        </button>
+      </div>
+    </form>
+    <p class="form-note" id="footerNote" role="status"></p>
+
+    <nav class="footer__nav" aria-label="Footer">
+      <a href="index.html">Home</a>
+      <a href="our-work.html">Our work</a>
+      <a href="services.html">Services</a>
+      <a href="downloads.html">Downloads</a>
+      <a href="beit-hasefer.html">Beit HaSefer</a>
+    </nav>
+
+  </div>
+</footer>
+
+<script src="assets/js/main.js?v=25"></script>
+</body>
+</html>
